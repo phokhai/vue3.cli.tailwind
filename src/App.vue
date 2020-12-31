@@ -1,26 +1,26 @@
 <template>
-  <div>
-    <TopBar></TopBar>
-    <ButtonBar></ButtonBar>
-    <!-- <router-view/> -->
-  </div>
+  <component :is="layout">
+    <router-view />
+  </component>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import TopBar from '@/views/_layout/TopBar.vue';
-import ButtonBar from '@/views/_layout/ButtonBar.vue';
+import { defineComponent, ref, computed } from "vue";
+import { useRouter } from "vue-router";
+
+const defaultLayout = "default";
 
 export default defineComponent({
-  components: {
-    TopBar,
-    ButtonBar,
-  },
   setup() {
-    return {};
+    const { currentRoute } = useRouter();
+
+    const layout = computed(
+      () => `${currentRoute.value.meta.layout || defaultLayout}-layout`
+    );
+
+    return {
+      layout,
+    };
   },
 });
 </script>
-
-<style scoped>
-</style>
