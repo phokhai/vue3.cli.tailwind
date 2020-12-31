@@ -14,12 +14,7 @@
     >
       <div class="flex items-center justify-center mt-8">
         <div class="flex items-center">
-          <svg
-            class="h-12 w-12"
-            viewBox="0 0 512 512"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg class="h-12 w-12" viewBox="0 0 512 512" fill="none">
             <path
               d="M364.61 390.213C304.625 450.196 207.37 450.196 147.386 390.213C117.394 360.22 102.398 320.911 102.398 281.6C102.398 242.291 117.394 202.981 147.386 172.989C147.386 230.4 153.6 281.6 230.4 307.2C230.4 256 256 102.4 294.4 76.7999C320 128 334.618 142.997 364.608 172.989C394.601 202.981 409.597 242.291 409.597 281.6C409.597 320.911 394.601 360.22 364.61 390.213Z"
               fill="#4C51BF"
@@ -46,12 +41,7 @@
           :class="[$route.name === 'Dashboard' ? activeClass : inactiveClass]"
           to="/dashboard"
         >
-          <svg
-            class="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none">
             <path
               d="M2 10C2 5.58172 5.58172 2 10 2V10H18C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10Z"
               fill="currentColor"
@@ -70,12 +60,7 @@
           :class="[$route.name === 'UIElements' ? activeClass : inactiveClass]"
           to="/ui-elements"
         >
-          <svg
-            class="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none">
             <path
               d="M5 3C3.89543 3 3 3.89543 3 5V7C3 8.10457 3.89543 9 5 9H7C8.10457 9 9 8.10457 9 7V5C9 3.89543 8.10457 3 7 3H5Z"
               fill="currentColor"
@@ -102,12 +87,7 @@
           :class="[$route.name === 'Tables' ? activeClass : inactiveClass]"
           to="/tables"
         >
-          <svg
-            class="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none">
             <path
               d="M7 3C6.44772 3 6 3.44772 6 4C6 4.55228 6.44772 5 7 5H13C13.5523 5 14 4.55228 14 4C14 3.44772 13.5523 3 13 3H7Z"
               fill="currentColor"
