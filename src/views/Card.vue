@@ -107,7 +107,7 @@ export default defineComponent({
     const register = () => {
       const data = JSON.parse(JSON.stringify(user.value));
       console.log('Registered: ', data);
-    };
+    }; 
 
     return {
       user,

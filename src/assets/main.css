@@ -7,17 +7,17 @@
 @import 'tailwindcss/utilities';
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
-::-webkit-scrollbar-track{
-  background: #2D3748;
+::-webkit-scrollbar-track {
+  background: #cbd5e0;
 }
 
-::-webkit-scrollbar-thumb{
-  background: #CBD5E0;
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
 }
 
-::-webkit-scrollbar-thumb:hover{
-  background: #718096;
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
 }
